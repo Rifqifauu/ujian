@@ -1,0 +1,186 @@
+.btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #5B1F9C;
+    --bs-btn-border-color: #5B1F9C;
+    --bs-btn-hover-color: #5B1F9C;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #5B1F9C;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5B1F9C;
+    --bs-btn-active-border-color: #5B1F9C;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #5B1F9C;
+    --bs-btn-disabled-border-color: #5B1F9C;
+}
+
+
+/* Gaya untuk navigasi sidebar */
+
+.navbar__list {
+    padding: 0;
+    list-style: none;
+}
+
+.navbar__list li {
+    padding: 15px;
+    transition: background 0.3s ease;
+    /* Efek transisi ketika dihover */
+}
+
+.navbar__list li:hover {
+    background-color: #2e59d9;
+    /* Warna latar belakang saat dihover */
+}
+
+
+/* Gaya untuk tautan di dalam navigasi sidebar */
+
+.navbar__list a {
+    color: #ffffff;
+    /* Warna teks */
+    text-decoration: none;
+    /* Menghilangkan garis bawah tautan */
+    font-size: 16px;
+}
+
+
+/* Gaya untuk tautan yang aktif atau terpilih */
+
+.navbar__list a.active {
+    font-weight: bold;
+    /* Tebalkan teks untuk menunjukkan tautan yang aktif */
+}
+
+
+/* Efek panah untuk submenu yang memiliki anak-anak */
+
+.navbar__list .js-arrow::after {
+    content: '\2193';
+    /* Karakter panah ke bawah */
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+
+/* Gaya untuk submenu */
+
+.navbar__list .has-sub ul {
+    display: none;
+    /* Sembunyikan submenu awalnya */
+    padding-left: 20px;
+    /* Ruang kiri untuk submenu */
+}
+
+.navbar__list .has-sub.active ul {
+    display: block;
+    /* Tampilkan submenu saat tautan dihover */
+}
+
+span {
+    color: #5B1F9C;
+}
+
+.typewriter-text {
+    overflow: hidden;
+    /* Ensures the text is initially hidden */
+    white-space: nowrap;
+    /* Keeps the text on one line */
+    margin: 0;
+    letter-spacing: 1px;
+    /* Adjust as needed */
+}
+
+.active {
+    border-bottom: 2px solid #5B1F9C;
+}
+
+body {
+    transition: background-color 0.5s ease;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #5B1F9C;
+}
+
+.footerContainer {
+    width: 100;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 1.5em;
+    color: #5B1F9C;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #5B1F9C;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 25px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+    margin: 0;
+}
